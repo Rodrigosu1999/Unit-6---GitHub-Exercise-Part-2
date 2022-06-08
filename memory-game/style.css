@@ -1,0 +1,60 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: all 500ms ease-out;
+}
+
+.red.clicked, .red.correct{
+  background-color: red;
+}
+
+.blue.clicked, .blue.correct{
+  background-color: blue;
+}
+
+.green.clicked, .green.correct{
+  background-color: green;
+}
+
+.orange.clicked, .orange.correct{
+  background-color: orange;
+}
+
+.purple.clicked, .purple.correct{
+  background-color: purple;
+}
+
+body{
+  background-color: rgb(143, 190, 231);
+  font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+h1{
+  font-size: 3rem;
+  margin: auto;
+  width: 345px;
+}
+
+h2{
+  width: 270px;
+  margin: auto;
+}
+
+p{
+  width: 5%;
+  border: 2px black solid;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+button{
+  display: block;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-family: 'Tiro Devanagari Marathi', serif;
+  font-size: 1.5rem;
+}
